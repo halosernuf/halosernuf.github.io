@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Beaglebone Cam"
+date:   2016-09-06 14:00:21 
 categories: "Beaglebone"
 ---
 

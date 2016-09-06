@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Markdown Learning"
-date:   2016-09-06 12:01:12 -0400
+date:   2016-09-06 12:01:12 
 ---
 ```
 # Header
