@@ -21,7 +21,7 @@ date: 2016-09-11 08:29:10
 * sid32 wait(mutex) //acquire lock
 * sid32 signal(mutex) //release lock
 
-[<img src="/images/xinu/mutex.png">](images/xinu/mutex.png)
+[<img src="images/xinu/mutex.png">](images/xinu/mutex.png)
 
 ## Producer & consumer example
 
