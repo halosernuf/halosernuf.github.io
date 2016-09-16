@@ -11,10 +11,21 @@ excerpt:   This page contains the curriculum vitae (CV) of the author.
 
 ## Profile
 
+``` javascript
+{
+	"Education": {
+		"Major": "Computer Science",
+		"School": "University of Florida"
+	}
+}
+```
+
 ---
 
 ## Skills
-
----
-
-## Education
+``` javascript
+{
+	"Programming Language": ["C++", "Python", "Java"],
+	"Web Technologies": ["HTML/CSS", "PHP", "Javascript"]
+}
+```
