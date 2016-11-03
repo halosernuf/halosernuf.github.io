@@ -4,6 +4,7 @@ title: "Atomic Operation in Multithread"
 categories: Multithread
 tags: atomic multithread
 ---
+source: [http://www.parallellabs.com/2010/04/15/atomic-operation-in-multithreaded-application/](http://www.parallellabs.com/2010/04/15/atomic-operation-in-multithreaded-application/)
 
 # Is the W/R operation in multithread enviroment ATOMIC?
 
