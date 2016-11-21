@@ -27,5 +27,8 @@ excerpt:   This page contains the curriculum vitae (CV) of the author.
 {
 	"Programming Language": ["C++", "Python", "Java"],
 	"Web Technologies": ["HTML/CSS", "PHP", "Javascript"]
+    "Librarys": ["Caffe", "OpenCV", "Scikit-learn", "Scipy", "Numpy", "Pandas", "MapReduce", 
+    "Operation Systems": ["Linux", "Xinu"]
+    "SQLs":["Oracle SQL", "MySQL"]
 }
 ```
