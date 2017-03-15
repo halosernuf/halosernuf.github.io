@@ -3,7 +3,7 @@ layout: post
 title: "Capemgr for Beaglebone with linux 4.4"
 date:   2017-3-15 18:34:26
 tags: beaglebone capemger
-categories: "beaglebone"
+categories: "Beaglebone"
 ---
 # Capemgr
 
@@ -89,7 +89,7 @@ echo [cape-name] > /sys/devices/platform/bone_capemgr/slots
 ```
 
 
-#Reference
+# Reference
 
 1. [http://elinux.org/Capemgr](http://elinux.org/Capemgr)
 2. [https://github.com/beagleboard/bb.org-overlays/blob/master/readme.md](https://github.com/beagleboard/bb.org-overlays/blob/master/readme.md)
