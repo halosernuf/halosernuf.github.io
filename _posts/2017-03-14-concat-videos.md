@@ -36,6 +36,7 @@ File tree example:
 Can use ffmpeg to concat the video segments to a single file
 
 ``` Python
+#!/usr/bin/python
 # -*- coding: UTF-8 -*- 
 import os
 import sys
@@ -59,15 +60,28 @@ def sort_nicely(l):
     """
     l.sort(key=alphanum_key)
 
+def writeInput(items):
+    with open('input.txt','w') as f:
+        for i in items:
+            f.write("file '"+i+"'\n")
+
+def removeItmes(items):
+    for item in items:
+        os.remove(item)
+        
 if __name__=="__main__":
-	path = sys.argv[1];
-	if os.path.exists(path):
-		os.chdir(path)
-		items=os.listdir(path)
-		items=[files for files in items if 'flv' in files]
-		sort_nicely(items)
-		file_names='|'.join(items)
-		string='ffmpeg -y -i "concat:%(file_names)s" -c copy "%(output)s.mp4"' % {'file_names':file_names,'output':os.path.basename(os.path.normpath(path))}
-		subprocess.call(string,shell=True)
+    path = sys.argv[1];
+    if os.path.exists(path):
+        os.chdir(path)
+        items=os.listdir('.')
+        items=[files for files in items if 'flv' in files]
+        sort_nicely(items)
+        writeInput(items)
+        string='ffmpeg -y -f concat -i input.txt -c copy "%(output)s.mp4"' % {'output':os.path.basename(os.path.abspath(path))}
+        subprocess.call(string,shell=True)
+        os.remove('input.txt')
+        removeItmes(items) //auto remove flv files
 ```
-Reference: [http://stackoverflow.com/questions/4623446/how-do-you-sort-files-numerically](http://stackoverflow.com/questions/4623446/how-do-you-sort-files-numerically)
+Reference: 
+[http://stackoverflow.com/questions/4623446/how-do-you-sort-files-numerically](http://stackoverflow.com/questions/4623446/how-do-you-sort-files-numerically)
+[https://trac.ffmpeg.org/wiki/Concatenate#demuxer](https://trac.ffmpeg.org/wiki/Concatenate#demuxer)
