@@ -83,5 +83,5 @@ if __name__=="__main__":
         removeItmes(items) //auto remove flv files
 ```
 Reference: 
-[http://stackoverflow.com/questions/4623446/how-do-you-sort-files-numerically](http://stackoverflow.com/questions/4623446/how-do-you-sort-files-numerically)
-[https://trac.ffmpeg.org/wiki/Concatenate#demuxer](https://trac.ffmpeg.org/wiki/Concatenate#demuxer)
+* [http://stackoverflow.com/questions/4623446/how-do-you-sort-files-numerically](http://stackoverflow.com/questions/4623446/how-do-you-sort-files-numerically)
+* [https://trac.ffmpeg.org/wiki/Concatenate#demuxer](https://trac.ffmpeg.org/wiki/Concatenate#demuxer)
