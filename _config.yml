@@ -26,7 +26,7 @@ plugins_dir:
   - jekyll-sitemap
   - jekyll-paginate
   - jemoji
-  - jekyll-maps
+  # - jekyll-maps
 
 maps:
   google:

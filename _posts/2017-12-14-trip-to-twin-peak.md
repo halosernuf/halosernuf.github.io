@@ -4,14 +4,9 @@ title: Trip to Twin Peak
 date: 2017-12-14 21:29:00
 img: 20171214230112_IMG_8603.JPG
 tags: [ Trip, Photography]
-location:
-  latitude: 37.7518611
-  longitude: -122.4464941
 ---
 
 Take 1 hour stay at [Twin Peak, San Francisco](https://www.google.com/maps/@37.7518611,-122.4464941,15z)
-
-{% google_map show_popup="false" zoom="15"%}
 
 ## Time-lapse
 
