@@ -1,31 +1,38 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+title: Chujia's Homepage
+description: > # this means to ignore newlines until "baseurl:"
+  welcome to chujia's new homepage
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
 
-# Site settings
-title:        HaloSern@UF
-subtitle:     
-description:  God's in his heaven. All's right with ther world
-# keywords:     demo theme example github jekyll features
-language:     "en" # default language of the blog. Language codes: http://www.w3schools.com/tags/ref_language_codes.asp
+# Author Settings
+author: Chujia Liu # add your name
+author-img: portrait.png # add your photo
+about-author: Software Developer, Gamer, Photographer # add description
+github: https://github.com/halosernuf/ # add your Github handle
+linkedin: https://www.linkedin.com/in/chujia-liu/ # add your Linkedin handle
+email: chujia.uf[at]gmail.com # add your Email address
 
-baseurl:      "" # the subpath of your site, e.g. /blog
-url:          "https://halosernuf.github.io/" # the base hostname & protocol for your site. Have a look at robots.txt as well!
-permalink:    /blog/:categories/:title
-cover:        /assets/central-park.jpg
+# Disqus
+discus-identifier:  # add your discus identifier
 
-# Build settings
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
 markdown: kramdown
-kramdown:
-  syntax_highlighter_opts:
-    disable: true
-include: ['_pages']
-exclude: [vendor]
-gems:
-  - jekyll-mentions
-  - jekyll-feed
+plugins_dir:
   - jekyll-sitemap
-  - jekyll-redirect-from
+  - jekyll-paginate
+  - jemoji
+  - jekyll-maps
+
+maps:
+  google:
+    api_key: AIzaSyD4cPOKfcZj8ksek2Lsno4nD4SwkzQ8q_Y
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

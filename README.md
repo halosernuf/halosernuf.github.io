@@ -1,10 +1,31 @@
-# jekyllDecent
-[![Build Status](https://travis-ci.org/jwillmer/jekyllDecent.svg?branch=gh-pages)](https://travis-ci.org/jwillmer/jekyllDecent) 
-[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](#license)
-[![Release v1.1.5](https://img.shields.io/badge/release-v1.1.5-blue.svg)](https://github.com/jwillmer/jekyllDecent/releases/tag/1.1.5)
+# Flexible-Jekyll is a simple and clean theme for Jekyll
 
-This is a blog template for a static site generator named [Jekyll](https://jekyllrb.com/docs/home/) based on a [Ghost](https://ghost.org) template named [Decent](https://github.com/serenader2014/decent). 
+![](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
 
-Installation instructions, features, previews and more can be found in the **[GitHub generated blog](http://jwillmer.github.io/jekyllDecent)**. This blog is automatically generated out of the source code in the `gh-pages` branch. If you like to see the theme in production have a look at [jwillmer.de](http://jwillmer.de).
+## Demo
 
-[![](./media/img/2016-06-08-Readme-front-page-previewe.jpg)](http://jwillmer.github.io/jekyllDecent)
+Check the theme in action [Demo](https://artemsheludko.github.io/flexible-jekyll/)
+
+The main page would look like this:
+
+![Main page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/home-page.jpg?raw=true)
+
+The post page would look like this:
+
+![Post page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/post-example.jpg?raw=true)
+
+## Features
+
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](http://fontawesome.io/)
+- [Disqus](https://disqus.com/)
+- [Analytics](https://analytics.google.com/analytics/web/)
+- Support Emoji
+
+## Installation:
+
+Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
+
+### License
+
+GNU General Public License v3.0
