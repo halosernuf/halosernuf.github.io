@@ -10,8 +10,8 @@ site-twitter: #if your site has a twitter account, enter it here
 author: Chujia Liu # add your name
 author-img: portrait.png # add your photo
 about-author: Software Developer, Gamer, Photographer # add description
-github: https://github.com/halosernuf/ # add your Github handle
-linkedin: https://www.linkedin.com/in/chujia-liu/ # add your Linkedin handle
+github: halosernuf # add your Github handle
+linkedin: chujialiu # add your Linkedin handle
 email: chujia.uf[at]gmail.com # add your Email address
 
 # Disqus
